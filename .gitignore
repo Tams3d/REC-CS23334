@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments / uv
+.venv/
+venv/
+env/
+.uv/
+
+# Ruff / lint / typecheck
+.ruff_cache/
+.mypy_cache/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.ipython/
+.jupyter/
+
+# Model / data artifacts produced while running the manual
+*.model
+*.pkl
+*.pickle
+*.joblib
+*.csv
+!requirements*.txt
+
+# Env / secrets
+.env
+.env.*
+*.key
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.code-workspace
