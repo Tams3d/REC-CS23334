@@ -45,3 +45,7 @@ desktop.ini
 .vscode/
 .idea/
 *.code-workspace
+
+# Generated PDF reports (kept on main)
+*.pdf
+pdf/
